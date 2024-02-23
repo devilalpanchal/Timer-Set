@@ -1,14 +1,19 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
-body{
+body {
     background: black;
 }
+
+.hide {
+    display: none;
+}
+
 /*********** To main-section *************/
-.main-container{
+.main-container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -18,36 +23,61 @@ body{
     margin-top: 70px;
 }
 
-.set-timer-section{
+.set-timer-section {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 60px;
 }
 
-.NameOftimer{
+.NameOftimer {
     font-size: 20px;
 }
-#minutes, #seconds{
+
+#minutes,
+#seconds {
     margin-left: 10px;
 
 }
-span{
+
+span {
     font-size: 30px;
     font-weight: 700;
     border-bottom: 1px solid rgb(255, 255, 255);
 }
-#set-button{
+
+#set-button,
+#Start-button,
+#end-button,
+#reset-button {
     border: none;
     padding: 9px;
     width: 80px;
     border-radius: 15px;
     background: yellow;
+    border: 3px solid rgb(212, 117, 221);
+    border-radius: 10px;
 }
-.Current-Time{
+#set-button:hover{
+    transform: rotate(90deg);
+
+}
+
+.Current-Time {
     margin-top: 30px;
 }
-.num{
+
+.num {
     padding: 20px;
     border: none;
+}
+#Start-button,
+#end-button,
+#reset-button{
+    margin: 20px;
+}
+#Start-button:hover,
+#end-button:hover,
+#reset-button:hover{
+    background: rgb(187, 137, 194);
 }
