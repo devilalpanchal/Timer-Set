@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: black;
+}
+/*********** To main-section *************/
+.main-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    color: white;
+    margin-top: 70px;
+}
+
+.set-timer-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+
+.NameOftimer{
+    font-size: 20px;
+}
+#minutes, #seconds{
+    margin-left: 10px;
+
+}
+span{
+    font-size: 30px;
+    font-weight: 700;
+    border-bottom: 1px solid rgb(255, 255, 255);
+}
+#set-button{
+    border: none;
+    padding: 9px;
+    width: 80px;
+    border-radius: 15px;
+    background: yellow;
+}
+.Current-Time{
+    margin-top: 30px;
+}
+.num{
+    padding: 20px;
+    border: none;
+}
