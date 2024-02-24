@@ -21,6 +21,12 @@ body {
     gap: 30px;
     color: white;
     margin-top: 70px;
+    border: 2px solid white;
+    width: 800px;
+    margin-left: 300px;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: -10px 10px 0px 0px white, 10px 10px 0px 0px white;
 }
 
 .set-timer-section {
@@ -41,6 +47,10 @@ body {
 }
 
 span {
+    width: 30px;
+    border-radius: 10px;
+    padding: 5px;
+    border: 1px solid white;
     font-size: 30px;
     font-weight: 700;
     border-bottom: 1px solid rgb(255, 255, 255);
@@ -81,3 +91,7 @@ span {
 #reset-button:hover{
     background: rgb(187, 137, 194);
 }
+
+/* #hours::-webkit-scrollbar{
+    display:none;
+} */
